@@ -27,3 +27,31 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+
+ #IntelliJ IDEA files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Build artifacts
+out/
+target/
+build/
+
+# Local history
+.history/
+
+# macOS specific
+.DS_Store
+
+# Maven/Gradle Wrapper
+.gradle/
+build/
+gradle/
+gradlew
+gradlew.bat
+
+# Logs
+*.log
