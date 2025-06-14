@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3062eb54-cb48-47c3-ba7c-7e7464a1cc19" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Easy/LargestEle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Easy/CalculateSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Easy/CountOcc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Easy/ReverseArr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,9 +42,48 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/pc/IdeaProjects/conquer_DSA/src/Main.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LargestEle">
+  <component name="RunManager" selected="Application.ReverseArr">
+    <configuration name="CalculateSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.Easy.CalculateSum" />
+      <module name="conquer_DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Arrays.Easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountOcc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.Easy.CountOcc" />
+      <module name="conquer_DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Arrays.Easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LargestEle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.Easy.LargestEle" />
+      <module name="conquer_DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Arrays.Easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.Easy.ReverseArr" />
       <module name="conquer_DSA" />
       <extension name="coverage">
         <pattern>
@@ -69,6 +110,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseArr" />
+        <item itemvalue="Application.CountOcc" />
+        <item itemvalue="Application.CalculateSum" />
         <item itemvalue="Application.LargestEle" />
         <item itemvalue="Application.TwoSum" />
       </list>
@@ -123,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749850711592</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Largest Element">
+      <option name="closed" value="true" />
+      <created>1749937322146</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1749937322146</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -131,7 +183,8 @@
     <MESSAGE value="welcome to dsa" />
     <MESSAGE value="Array Easy Problems" />
     <MESSAGE value="Two sum with brute and easy appraoch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Two sum with brute and easy appraoch" />
+    <MESSAGE value="Largest Element" />
+    <option name="LAST_COMMIT_MESSAGE" value="Largest Element" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
