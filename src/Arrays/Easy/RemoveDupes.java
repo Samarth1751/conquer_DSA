@@ -1,8 +1,12 @@
 package Arrays.Easy;
 
+import java.util.ArrayList;
+import java.util.HashSet;
+
 public class RemoveDupes {
     public static void main(String[] args) {
         int arr[] ={1,1,2,2,3,3};
+        int newArr[] ={4,5,9,4,9,2,5,7};
         System.out.println(RemoveDupes(arr));
     }
 
@@ -18,6 +22,12 @@ public class RemoveDupes {
         }
         return i+1;
     }
+
+//    static ArrayList Remove(int newArr[]){
+//        HashSet<Integer>seen = new HashSet<>();
+//        ArrayList<Integer>list = new ArrayList<>();
+////        for(int i=0; )
+//    }
 
 
 }

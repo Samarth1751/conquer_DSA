@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3062eb54-cb48-47c3-ba7c-7e7464a1cc19" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Easy/RemoveDupes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Easy/MoveZeroestoEnd.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/Easy/RemoveDupes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/Easy/RemoveDupes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +41,7 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/pc/IdeaProjects/conquer_DSA/src/Main.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.RemoveDupes">
+  <component name="RunManager" selected="Application.MoveZeroestoEnd">
     <configuration name="ArrayisSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.Easy.ArrayisSorted" />
       <module name="conquer_DSA" />
@@ -54,8 +55,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculateSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.Easy.CalculateSum" />
+    <configuration name="CountOcc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.Easy.CountOcc" />
       <module name="conquer_DSA" />
       <extension name="coverage">
         <pattern>
@@ -67,8 +68,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountOcc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.Easy.CountOcc" />
+    <configuration name="MoveZeroestoEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.Easy.MoveZeroestoEnd" />
       <module name="conquer_DSA" />
       <extension name="coverage">
         <pattern>
@@ -108,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MoveZeroestoEnd" />
         <item itemvalue="Application.RemoveDupes" />
         <item itemvalue="Application.ArrayisSorted" />
         <item itemvalue="Application.ReverseArr" />
         <item itemvalue="Application.CountOcc" />
-        <item itemvalue="Application.CalculateSum" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750284657831</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Remove Dupes from arr">
+      <option name="closed" value="true" />
+      <created>1750286476638</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1750286476638</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -200,7 +209,8 @@
     <MESSAGE value="Largest Element" />
     <MESSAGE value="Easy Questions" />
     <MESSAGE value="Array Sorted Question" />
-    <option name="LAST_COMMIT_MESSAGE" value="Array Sorted Question" />
+    <MESSAGE value="Remove Dupes from arr" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove Dupes from arr" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -212,7 +222,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Arrays/Easy/RemoveDupes.java</url>
-          <line>7</line>
+          <line>13</line>
           <properties class="Arrays.Easy.RemoveDupes" method="RemoveDupes">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
