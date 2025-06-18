@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3062eb54-cb48-47c3-ba7c-7e7464a1cc19" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Easy/CalculateSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Easy/CountOcc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Easy/ReverseArr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Easy/ArrayisSorted.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +40,20 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/pc/IdeaProjects/conquer_DSA/src/Main.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ReverseArr">
+  <component name="RunManager" selected="Application.ArrayisSorted">
+    <configuration name="ArrayisSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.Easy.ArrayisSorted" />
+      <module name="conquer_DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Arrays.Easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalculateSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.Easy.CalculateSum" />
       <module name="conquer_DSA" />
@@ -95,26 +106,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.Easy.TwoSum" />
-      <module name="conquer_DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Arrays.Easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayisSorted" />
         <item itemvalue="Application.ReverseArr" />
         <item itemvalue="Application.CountOcc" />
         <item itemvalue="Application.CalculateSum" />
         <item itemvalue="Application.LargestEle" />
-        <item itemvalue="Application.TwoSum" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749937322146</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Easy Questions">
+      <option name="closed" value="true" />
+      <created>1749939478122</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1749939478122</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -184,7 +190,8 @@
     <MESSAGE value="Array Easy Problems" />
     <MESSAGE value="Two sum with brute and easy appraoch" />
     <MESSAGE value="Largest Element" />
-    <option name="LAST_COMMIT_MESSAGE" value="Largest Element" />
+    <MESSAGE value="Easy Questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Easy Questions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
