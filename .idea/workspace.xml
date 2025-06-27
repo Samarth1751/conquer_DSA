@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3062eb54-cb48-47c3-ba7c-7e7464a1cc19" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Easy/MoveZeroestoEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Easy/SecondLargest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Arrays/Easy/RemoveDupes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/Easy/RemoveDupes.java" afterDir="false" />
     </list>
@@ -41,22 +41,9 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/pc/IdeaProjects/conquer_DSA/src/Main.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MoveZeroestoEnd">
+  <component name="RunManager" selected="Application.SecondLargest">
     <configuration name="ArrayisSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.Easy.ArrayisSorted" />
-      <module name="conquer_DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Arrays.Easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountOcc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.Easy.CountOcc" />
       <module name="conquer_DSA" />
       <extension name="coverage">
         <pattern>
@@ -107,13 +94,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SecondLargest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.Easy.SecondLargest" />
+      <module name="conquer_DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Arrays.Easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MoveZeroestoEnd" />
+        <item itemvalue="Application.SecondLargest" />
         <item itemvalue="Application.RemoveDupes" />
+        <item itemvalue="Application.MoveZeroestoEnd" />
         <item itemvalue="Application.ArrayisSorted" />
         <item itemvalue="Application.ReverseArr" />
-        <item itemvalue="Application.CountOcc" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750286476638</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Move Zeros to the end">
+      <option name="closed" value="true" />
+      <created>1750287752778</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1750287752778</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -210,7 +218,8 @@
     <MESSAGE value="Easy Questions" />
     <MESSAGE value="Array Sorted Question" />
     <MESSAGE value="Remove Dupes from arr" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove Dupes from arr" />
+    <MESSAGE value="Move Zeros to the end" />
+    <option name="LAST_COMMIT_MESSAGE" value="Move Zeros to the end" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -222,12 +231,30 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Arrays/Easy/RemoveDupes.java</url>
-          <line>13</line>
+          <line>21</line>
           <properties class="Arrays.Easy.RemoveDupes" method="RemoveDupes">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Arrays/Easy/MoveZeroestoEnd.java</url>
+          <line>12</line>
+          <properties class="Arrays.Easy.MoveZeroestoEnd" method="MoveZero">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Arrays/Easy/SecondLargest.java</url>
+          <line>7</line>
+          <properties class="Arrays.Easy.SecondLargest" method="Second">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
