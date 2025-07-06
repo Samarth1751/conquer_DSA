@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3062eb54-cb48-47c3-ba7c-7e7464a1cc19" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/Easy/CheckArrEqual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Medium/RotateArrToLeft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Medium/RotateArrayToRight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,20 +41,7 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/pc/IdeaProjects/conquer_DSA/src/Main.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CheckArrEqual">
-    <configuration name="ArrayisSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.Easy.ArrayisSorted" />
-      <module name="conquer_DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Arrays.Easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.RotateArrayToRight">
     <configuration name="CheckArrEqual" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.Easy.CheckArrEqual" />
       <module name="conquer_DSA" />
@@ -67,12 +55,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoveZeroestoEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.Easy.MoveZeroestoEnd" />
+    <configuration name="RotateArrToLeft" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.Medium.RotateArrToLeft" />
       <module name="conquer_DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.Easy.*" />
+          <option name="PATTERN" value="Arrays.Medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDupes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.Easy.RemoveDupes" />
+    <configuration name="RotateArrayToRight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.Medium.RotateArrayToRight" />
       <module name="conquer_DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.Easy.*" />
+          <option name="PATTERN" value="Arrays.Medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,13 +94,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.Medium.TwoSum" />
+      <module name="conquer_DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Arrays.Medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RotateArrayToRight" />
+        <item itemvalue="Application.RotateArrToLeft" />
+        <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.CheckArrEqual" />
         <item itemvalue="Application.SecondLargest" />
-        <item itemvalue="Application.RemoveDupes" />
-        <item itemvalue="Application.MoveZeroestoEnd" />
-        <item itemvalue="Application.ArrayisSorted" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +214,23 @@
       <option name="project" value="LOCAL" />
       <updated>1751054180011</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Check if array is equal or not">
+      <option name="closed" value="true" />
+      <created>1751055094291</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1751055094291</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Two Sum with hashmap">
+      <option name="closed" value="true" />
+      <created>1751714113768</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1751714113768</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -227,7 +244,9 @@
     <MESSAGE value="Remove Dupes from arr" />
     <MESSAGE value="Move Zeros to the end" />
     <MESSAGE value="Removes Dupes and Second Largest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removes Dupes and Second Largest" />
+    <MESSAGE value="Check if array is equal or not" />
+    <MESSAGE value="Two Sum with hashmap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Two Sum with hashmap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -263,6 +282,42 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Arrays/Easy/CheckArrEqual.java</url>
+          <line>8</line>
+          <properties class="Arrays.Easy.CheckArrEqual" method="Check">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Arrays/Medium/TwoSum.java</url>
+          <line>13</line>
+          <properties class="Arrays.Medium.TwoSum" method="TwoSum">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Arrays/Medium/RotateArrayToRight.java</url>
+          <line>25</line>
+          <properties class="Arrays.Medium.RotateArrayToRight" method="reverse">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Arrays/Medium/RotateArrToLeft.java</url>
+          <line>20</line>
+          <properties class="Arrays.Medium.RotateArrToLeft" method="Reverse">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
